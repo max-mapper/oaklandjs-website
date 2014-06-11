@@ -56,7 +56,8 @@ pre {
   padding-bottom: 40px;
 }
 
-.content p {
+.content .info {
+  text-align: center;
   white-space: pre;
 }
 
