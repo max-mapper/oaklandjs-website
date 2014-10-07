@@ -290,7 +290,7 @@ h1 { font-size: 30px; }
 
 .community { margin: 20px; }
 #bottom-section, .review-section { padding: 30px 0; }
-#middle-section h1 { margin-bottom: 15px; padding: 0; }
+#middle-section h1 { margin-bottom: 0px; padding: 0; }
 #middle-section h3 { padding: 10px 0; font-size: 25px; text-align: center; }
 #bottom-section .code { color: black; }
 
@@ -364,7 +364,7 @@ a:hover, button:hover { cursor: pointer; cursor: hand;}
   #middle-section p.description { padding-bottom: 35px; }
   pre { font-size: 16px; }
   .content { font-size: 16px; line-height: 24px; max-width: 600px; }
-  .content p { margin-top: 25px; }
+  .content p { margin-top: 15px; }
   .content iframe, .content hr { margin-bottom: 25px; }
   iframe { width: 600px; }
   .title { margin-bottom: 20px; }
@@ -385,7 +385,7 @@ a:hover, button:hover { cursor: pointer; cursor: hand;}
   #bottom-section { background-size: 300px; background-position: 20px 40px; }
   #bottom-section, .review-section { padding: 100px 0; }
   #middle-section { padding: 50px 0; }
-  #middle-section h1 { padding: 50px 0 20px 0; }
+  #middle-section h1 { padding: 50px 0 0 0; }
   #middle-section h3 { padding: 30px 0; font-size: 45px; }
   #middle-section p.description { padding-bottom: 50px; }
   .content { font-size: 20px; line-height: 30px; max-width: 720px; }
