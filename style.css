@@ -126,6 +126,9 @@ div, p, blockquote, button {
   margin: 0;
 }
 
+#footer {
+  padding: 0;
+}
 #footer .content {
   color: white;
   padding: 20px;
@@ -287,7 +290,7 @@ h1 { font-size: 30px; }
 
 .community { margin: 20px; }
 #bottom-section, .review-section { padding: 30px 0; }
-#middle-section h1 { margin-bottom: 15px; padding: 20px 0 10px 0; }
+#middle-section h1 { margin-bottom: 0px; padding: 0; }
 #middle-section h3 { padding: 10px 0; font-size: 25px; text-align: center; }
 #bottom-section .code { color: black; }
 
@@ -308,7 +311,10 @@ section { padding: 0 0 30px 0; }
 pre { font-size: 14px; }
 iframe { width: 450px; }
 
-.content p { margin: 15px 0; }
+.content p {
+  margin: 15px 0; 
+  text-align: center;
+}
 
 a:hover, button:hover { cursor: pointer; cursor: hand;}
 
@@ -355,9 +361,10 @@ a:hover, button:hover { cursor: pointer; cursor: hand;}
   #middle-section { padding: 30px 0; }
   #middle-section h1 { padding: 35px 0 15px 0; }
   #middle-section h3 { padding: 20px 0; font-size: 30px; }
+  #middle-section p.description { padding-bottom: 35px; }
   pre { font-size: 16px; }
   .content { font-size: 16px; line-height: 24px; max-width: 600px; }
-  .content p { margin-top: 25px; }
+  .content p { margin-top: 15px; }
   .content iframe, .content hr { margin-bottom: 25px; }
   iframe { width: 600px; }
   .title { margin-bottom: 20px; }
@@ -378,12 +385,13 @@ a:hover, button:hover { cursor: pointer; cursor: hand;}
   #bottom-section { background-size: 300px; background-position: 20px 40px; }
   #bottom-section, .review-section { padding: 100px 0; }
   #middle-section { padding: 50px 0; }
-  #middle-section h1 { padding: 50px 0 20px 0; }
+  #middle-section h1 { padding: 50px 0 0 0; }
   #middle-section h3 { padding: 30px 0; font-size: 45px; }
+  #middle-section p.description { padding-bottom: 50px; }
   .content { font-size: 20px; line-height: 30px; max-width: 720px; }
   iframe { width: 720px; }
   pre { font-size: 20px; }
-  .content p { margin-top: 40px; }
+  .content p { margin: 40px 0; }
   .content iframe, .content hr { margin-bottom: 40px; }
   .subtitle { margin-bottom: 40px; }
   .community { margin: 40px; }
